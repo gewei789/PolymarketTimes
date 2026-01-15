@@ -1,0 +1,16 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/api/alerts/route": "/api/alerts",
+  "/api/cron/generate-edition/route": "/api/cron/generate-edition",
+  "/api/cron/refresh-editorial/route": "/api/cron/refresh-editorial",
+  "/api/crypto/route": "/api/crypto",
+  "/api/editorial/route": "/api/editorial",
+  "/api/editorial/stream/route": "/api/editorial/stream",
+  "/api/markets/route": "/api/markets",
+  "/api/monitor/route": "/api/monitor",
+  "/api/subscribe/route": "/api/subscribe",
+  "/icon.png/route": "/icon.png",
+  "/page": "/",
+  "/sponsor/page": "/sponsor"
+}

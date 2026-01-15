@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "functions": {
+    "/api/cron/generate-edition": {},
+    "/api/editorial/stream": {},
+    "/api/monitor": {}
+  }
+}

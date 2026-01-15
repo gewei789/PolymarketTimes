@@ -1,0 +1,47 @@
+[00:00:04.563] Server  LOG      ✓ Ready in 4s
+[00:00:07.589] Server  LOG      ○ Compiling / ...
+[00:00:11.447] Server  LOG     Supabase init check: {}
+[00:00:11.454] Server  LOG     Supabase client created successfully
+[00:00:11.455] Server  LOG     DEV MODE: Skipping market cache, fetching fresh data
+[00:00:11.455] Server  LOG     Starting full Polymarket fetch...
+[00:00:11.456] Server  LOG     Fetching 13 batches of events in parallel...
+[00:00:11.732] Server  WARN    Fetch attempt 1/2 failed: "fetch failed"
+[00:00:11.734] Server  WARN    Fetch attempt 1/2 failed: "fetch failed"
+[00:00:11.735] Server  WARN    Fetch attempt 1/2 failed: "fetch failed"
+[00:00:11.737] Server  WARN    Fetch attempt 1/2 failed: "fetch failed"
+[00:00:11.739] Server  WARN    Fetch attempt 1/2 failed: "fetch failed"
+[00:00:11.768] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:12.244] Server  WARN    Fetch attempt 2/2 failed: "fetch failed"
+[00:00:12.249] Server  ERROR   C:\Users\23668\Downloads\PolymarketTimes-main\.next\dev\server\chunks\ssr\[root-of-the-server]__35f32663._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:12.251] Server  WARN    Failed to fetch batch at offset 1000: TypeError: fetch failed
+[00:00:12.253] Server  WARN    Fetch attempt 2/2 failed: "fetch failed"
+[00:00:12.255] Server  ERROR   C:\Users\23668\Downloads\PolymarketTimes-main\.next\dev\server\chunks\ssr\[root-of-the-server]__35f32663._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:12.256] Server  WARN    Failed to fetch batch at offset 2000: TypeError: fetch failed
+[00:00:12.258] Server  WARN    Fetch attempt 2/2 failed: "fetch failed"
+[00:00:12.260] Server  ERROR   C:\Users\23668\Downloads\PolymarketTimes-main\.next\dev\server\chunks\ssr\[root-of-the-server]__35f32663._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:12.260] Server  WARN    Failed to fetch batch at offset 0: TypeError: fetch failed
+[00:00:12.263] Server  WARN    Fetch attempt 2/2 failed: "fetch failed"
+[00:00:12.264] Server  ERROR   C:\Users\23668\Downloads\PolymarketTimes-main\.next\dev\server\chunks\ssr\[root-of-the-server]__35f32663._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:12.265] Server  WARN    Failed to fetch batch at offset 500: TypeError: fetch failed
+[00:00:12.267] Server  WARN    Fetch attempt 2/2 failed: "fetch failed"
+[00:00:12.268] Server  ERROR   C:\Users\23668\Downloads\PolymarketTimes-main\.next\dev\server\chunks\ssr\[root-of-the-server]__35f32663._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:12.269] Server  WARN    Failed to fetch batch at offset 1500: TypeError: fetch failed
+[00:00:12.270] Server  LOG     Reached end of events at offset ~0
+[00:00:12.270] Server  LOG     Fetched 0 total events from Polymarket
+[00:00:12.271] Server  LOG     Step 1: Fetched 0 events in 815ms
+[00:00:12.271] Server  LOG     Step 2: Extracted 0 total markets
+[00:00:12.272] Server  LOG     Step 3: Stage 1 filter: 0 → 0 markets
+[00:00:12.272] Server  LOG     Step 4-5: Quick scored and selected top 0 candidates
+[00:00:12.272] Server  LOG     Step 6: Fetching price history for top 0 markets...
+[00:00:12.273] Server  LOG     Price history fetched in 0ms
+[00:00:12.273] Server  LOG     
+=== FULL PIPELINE COMPLETE ===
+[00:00:12.274] Server  LOG     Total events: 0
+[00:00:12.274] Server  LOG     Total markets extracted: 0
+[00:00:12.274] Server  LOG     After stage 1 filter: 0
+[00:00:12.274] Server  LOG     Final processed: 0
+[00:00:12.275] Server  LOG     Groups: 0
+[00:00:12.275] Server  LOG     Total time: 818ms
+[00:00:12.275] Server  LOG     ==============================
+
+[00:00:12.758] Server  ERROR   Failed to save market cache: {}

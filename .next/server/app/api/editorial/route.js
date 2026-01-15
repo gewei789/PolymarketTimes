@@ -1,0 +1,11 @@
+var R=require("../../../chunks/[turbopack]_runtime.js")("server/app/api/editorial/route.js")
+R.c("server/chunks/[root-of-the-server]__98669c7a._.js")
+R.c("server/chunks/[root-of-the-server]__edbc9736._.js")
+R.c("server/chunks/app_api_editorial_route_ts_a6a090ec._.js")
+R.c("server/chunks/_cca21390._.js")
+R.c("server/chunks/[root-of-the-server]__b2da729a._.js")
+R.c("server/chunks/_7498f1e6._.js")
+R.c("server/chunks/node_modules_formdata-node_lib_esm_File_ccf0a600.js")
+R.c("server/chunks/_next-internal_server_app_api_editorial_route_actions_25405863.js")
+R.m(91122)
+module.exports=R.m(91122).exports

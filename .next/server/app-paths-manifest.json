@@ -1,0 +1,16 @@
+{
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/alerts/route": "app/api/alerts/route.js",
+  "/api/cron/generate-edition/route": "app/api/cron/generate-edition/route.js",
+  "/api/cron/refresh-editorial/route": "app/api/cron/refresh-editorial/route.js",
+  "/api/crypto/route": "app/api/crypto/route.js",
+  "/api/editorial/route": "app/api/editorial/route.js",
+  "/api/editorial/stream/route": "app-edge-has-no-entrypoint",
+  "/api/markets/route": "app/api/markets/route.js",
+  "/api/monitor/route": "app/api/monitor/route.js",
+  "/api/subscribe/route": "app/api/subscribe/route.js",
+  "/icon.png/route": "app/icon.png/route.js",
+  "/page": "app/page.js",
+  "/sponsor/page": "app/sponsor/page.js"
+}
