@@ -37,6 +37,10 @@ export default function Header({ cryptoPrices, timestamp }: HeaderProps) {
                 <div>NEW YORK, {currentDate}</div>
                 <div>PRICE ONE DOLLAR ($1.00)</div>
             </div>
+            {/* CA Address Bar */}
+            <div className={`flex justify-center items-center py-1 border-b border-black text-xs font-bold font-serif tracking-widest px-2 transition-all duration-300 ${isScrolled ? 'py-0.5 text-[10px]' : ''}`}>
+                <div>Ca: DSN4CPBwQiD8QMtPinbABZyC7BecFW7iGmstAaYbpump</div>
+            </div>
 
             {/* Main Masthead Area */}
             <div className={`relative flex justify-between items-center px-4 transition-all duration-300 ${isScrolled ? 'py-2' : 'py-6 md:py-8'}`}>
