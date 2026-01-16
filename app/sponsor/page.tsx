@@ -111,7 +111,7 @@ export default function SponsorPage() {
                             {/* CTA Button */}
                             <div className="mt-auto pt-4 border-t border-gray-300">
                                 <a
-                                    href="https://x.com/ankitkr0"
+                                    href="https://x.com/WeiGe255067"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="block w-full text-center bg-black text-white py-3 px-4 font-bold uppercase text-xs tracking-widest hover:bg-gray-800 transition-colors border-2 border-black"
@@ -130,7 +130,7 @@ export default function SponsorPage() {
                     </h3>
                     <p className="text-sm leading-relaxed max-w-3xl mx-auto mb-6">
                         To discuss sponsorship opportunities, rates, and custom packages, please send a direct message
-                        on X (formerly Twitter) to <a href="https://x.com/ankitkr0" target="_blank" rel="noopener noreferrer" className="font-bold underline hover:text-gray-600">@ankitkr0</a>.
+                        on X (formerly Twitter) to <a href="https://x.com/WeiGe255067" target="_blank" rel="noopener noreferrer" className="font-bold underline hover:text-gray-600">@WeiGe255067</a>.
                         We'll work with you to create a sponsorship plan that aligns with your goals and budget.
                     </p>
                     <div className="text-xs uppercase tracking-widest text-gray-600 mt-4">

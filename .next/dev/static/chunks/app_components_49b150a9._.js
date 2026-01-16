@@ -719,11 +719,11 @@ function Footer({ contestedMarkets }) {
                         children: [
                             "An experiment by ",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                href: "https://x.com/ankitkr0",
+                                href: "https://x.com/WeiGe255067",
                                 target: "_blank",
                                 rel: "noopener noreferrer",
                                 className: "underline hover:text-black",
-                                children: "@ankitkr0"
+                                children: "@WeiGe255067"
                             }, void 0, false, {
                                 fileName: "[project]/app/components/Footer.tsx",
                                 lineNumber: 104,
