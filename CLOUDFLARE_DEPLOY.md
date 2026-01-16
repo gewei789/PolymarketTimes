@@ -51,9 +51,10 @@ Cloudflare Pages 支持 Next.js 项目，并且有**免费计划**：
 3. **配置构建设置**
    - **Project name**: `polymarket-times`（或你喜欢的名字）
    - **Production branch**: `main` 或 `master`
-   - **Framework preset**: `Next.js`
-   - **Build command**: `npm run build`
-   - **Build output directory**: `.next`
+   - **Framework preset**: `Next.js`（或留空）
+   - **Build command**: `npm run pages:build` 或 `npx @opennextjs/cloudflare build`
+   - **Deploy command**: `npx @opennextjs/cloudflare deploy`（如果必填）
+   - **Build output directory**: `.opennext`（OpenNext 的输出目录）
    - **Root directory**: `/`（留空或填 `/`）
 
 4. **配置环境变量**

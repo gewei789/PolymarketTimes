@@ -5,7 +5,7 @@ import { ArticleWriterAgent, generateDateline } from '../article-agent';
 import { ContrarianAgent } from '../contrarian-agent';
 import { Market, MarketGroup, Story, Headlines, Datelines, ArticleContent } from '../../../types';
 
-export const runtime = 'edge'; // Use edge runtime for streaming
+export const runtime = 'nodejs'; // OpenNext Cloudflare adapter requires nodejs runtime
 export const dynamic = 'force-dynamic';
 
 /**
