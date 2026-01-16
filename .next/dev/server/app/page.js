@@ -1,6 +1,6 @@
 var R=require("../chunks/ssr/[turbopack]_runtime.js")("server/app/page.js")
 R.c("server/chunks/ssr/node_modules_formdata-node_lib_esm_fileFromPath_8b67753a.js")
-R.c("server/chunks/ssr/[root-of-the-server]__35f32663._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__f645a494._.js")
 R.c("server/chunks/ssr/node_modules_next_49086eea._.js")
 R.c("server/chunks/ssr/node_modules_@supabase_storage-js_dist_module_ac6f416c._.js")
 R.c("server/chunks/ssr/node_modules_@supabase_auth-js_dist_module_ca04f287._.js")

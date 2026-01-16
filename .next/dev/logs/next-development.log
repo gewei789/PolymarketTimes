@@ -1,47 +1,635 @@
-[00:00:04.563] Server  LOG      ✓ Ready in 4s
-[00:00:07.589] Server  LOG      ○ Compiling / ...
-[00:00:11.447] Server  LOG     Supabase init check: {}
-[00:00:11.454] Server  LOG     Supabase client created successfully
-[00:00:11.455] Server  LOG     DEV MODE: Skipping market cache, fetching fresh data
-[00:00:11.455] Server  LOG     Starting full Polymarket fetch...
-[00:00:11.456] Server  LOG     Fetching 13 batches of events in parallel...
-[00:00:11.732] Server  WARN    Fetch attempt 1/2 failed: "fetch failed"
-[00:00:11.734] Server  WARN    Fetch attempt 1/2 failed: "fetch failed"
-[00:00:11.735] Server  WARN    Fetch attempt 1/2 failed: "fetch failed"
-[00:00:11.737] Server  WARN    Fetch attempt 1/2 failed: "fetch failed"
-[00:00:11.739] Server  WARN    Fetch attempt 1/2 failed: "fetch failed"
-[00:00:11.768] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:12.244] Server  WARN    Fetch attempt 2/2 failed: "fetch failed"
-[00:00:12.249] Server  ERROR   C:\Users\23668\Downloads\PolymarketTimes-main\.next\dev\server\chunks\ssr\[root-of-the-server]__35f32663._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:12.251] Server  WARN    Failed to fetch batch at offset 1000: TypeError: fetch failed
-[00:00:12.253] Server  WARN    Fetch attempt 2/2 failed: "fetch failed"
-[00:00:12.255] Server  ERROR   C:\Users\23668\Downloads\PolymarketTimes-main\.next\dev\server\chunks\ssr\[root-of-the-server]__35f32663._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:12.256] Server  WARN    Failed to fetch batch at offset 2000: TypeError: fetch failed
-[00:00:12.258] Server  WARN    Fetch attempt 2/2 failed: "fetch failed"
-[00:00:12.260] Server  ERROR   C:\Users\23668\Downloads\PolymarketTimes-main\.next\dev\server\chunks\ssr\[root-of-the-server]__35f32663._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:12.260] Server  WARN    Failed to fetch batch at offset 0: TypeError: fetch failed
-[00:00:12.263] Server  WARN    Fetch attempt 2/2 failed: "fetch failed"
-[00:00:12.264] Server  ERROR   C:\Users\23668\Downloads\PolymarketTimes-main\.next\dev\server\chunks\ssr\[root-of-the-server]__35f32663._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:12.265] Server  WARN    Failed to fetch batch at offset 500: TypeError: fetch failed
-[00:00:12.267] Server  WARN    Fetch attempt 2/2 failed: "fetch failed"
-[00:00:12.268] Server  ERROR   C:\Users\23668\Downloads\PolymarketTimes-main\.next\dev\server\chunks\ssr\[root-of-the-server]__35f32663._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:00:12.269] Server  WARN    Failed to fetch batch at offset 1500: TypeError: fetch failed
-[00:00:12.270] Server  LOG     Reached end of events at offset ~0
-[00:00:12.270] Server  LOG     Fetched 0 total events from Polymarket
-[00:00:12.271] Server  LOG     Step 1: Fetched 0 events in 815ms
-[00:00:12.271] Server  LOG     Step 2: Extracted 0 total markets
-[00:00:12.272] Server  LOG     Step 3: Stage 1 filter: 0 → 0 markets
-[00:00:12.272] Server  LOG     Step 4-5: Quick scored and selected top 0 candidates
-[00:00:12.272] Server  LOG     Step 6: Fetching price history for top 0 markets...
-[00:00:12.273] Server  LOG     Price history fetched in 0ms
-[00:00:12.273] Server  LOG     
+[00:00:01.278] Server  LOG      ✓ Ready in 951ms
+[00:00:37.637] Server  LOG     Supabase init check: {}
+[00:00:37.644] Server  LOG     Supabase client created successfully
+[00:00:37.645] Server  LOG     DEV MODE: Skipping market cache, fetching fresh data
+[00:00:37.645] Server  LOG     Starting full Polymarket fetch...
+[00:00:37.645] Server  LOG     Fetching 13 batches of events in parallel...
+[00:00:37.704] Server  LOG     DEV MODE: Skipping market cache, fetching fresh data
+[00:00:37.704] Server  LOG     Starting full Polymarket fetch...
+[00:00:37.705] Server  LOG     Fetching 13 batches of events in parallel...
+[00:00:38.023] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:41.083] Server  LOG     DEV MODE: Skipping market cache, fetching fresh data
+[00:00:41.084] Server  LOG     Starting full Polymarket fetch...
+[00:00:41.084] Server  LOG     Fetching 13 batches of events in parallel...
+[00:00:42.010] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:51.546] Server  WARN    Fetch attempt 1/2 failed: "fetch failed"
+[00:00:51.548] Server  WARN    Fetch attempt 1/2 failed: "fetch failed"
+[00:00:51.550] Server  WARN    Fetch attempt 1/2 failed: "fetch failed"
+[00:00:51.551] Server  WARN    Fetch attempt 1/2 failed: "fetch failed"
+[00:00:51.552] Server  WARN    Fetch attempt 1/2 failed: "fetch failed"
+[00:00:52.051] Server  WARN    Fetch attempt 2/2 failed: "fetch failed"
+[00:00:52.055] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:52.059] Server  WARN    Failed to fetch batch at offset 1000: TypeError: fetch failed
+[00:00:52.060] Server  WARN    Fetch attempt 2/2 failed: "fetch failed"
+[00:00:52.061] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:52.062] Server  WARN    Failed to fetch batch at offset 500: TypeError: fetch failed
+[00:00:52.069] Server  WARN    Fetch attempt 2/2 failed: "fetch failed"
+[00:00:52.070] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:52.071] Server  WARN    Failed to fetch batch at offset 0: TypeError: fetch failed
+[00:00:52.073] Server  WARN    Fetch attempt 2/2 failed: "fetch failed"
+[00:00:52.074] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:52.075] Server  WARN    Failed to fetch batch at offset 2000: TypeError: fetch failed
+[00:00:52.076] Server  WARN    Fetch attempt 2/2 failed: "fetch failed"
+[00:00:52.077] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:52.078] Server  WARN    Failed to fetch batch at offset 1500: TypeError: fetch failed
+[00:00:52.079] Server  LOG     Reached end of events at offset ~0
+[00:00:52.079] Server  LOG     Fetched 0 total events from Polymarket
+[00:00:52.079] Server  LOG     Step 1: Fetched 0 events in 10995ms
+[00:00:52.079] Server  LOG     Step 2: Extracted 0 total markets
+[00:00:52.079] Server  LOG     Step 3: Stage 1 filter: 0 → 0 markets
+[00:00:52.080] Server  LOG     Step 4-5: Quick scored and selected top 0 candidates
+[00:00:52.080] Server  LOG     Step 6: Fetching price history for top 0 markets...
+[00:00:52.080] Server  LOG     Price history fetched in 0ms
+[00:00:52.081] Server  LOG     
 === FULL PIPELINE COMPLETE ===
-[00:00:12.274] Server  LOG     Total events: 0
-[00:00:12.274] Server  LOG     Total markets extracted: 0
-[00:00:12.274] Server  LOG     After stage 1 filter: 0
-[00:00:12.274] Server  LOG     Final processed: 0
-[00:00:12.275] Server  LOG     Groups: 0
-[00:00:12.275] Server  LOG     Total time: 818ms
-[00:00:12.275] Server  LOG     ==============================
+[00:00:52.081] Server  LOG     Total events: 0
+[00:00:52.081] Server  LOG     Total markets extracted: 0
+[00:00:52.081] Server  LOG     After stage 1 filter: 0
+[00:00:52.082] Server  LOG     Final processed: 0
+[00:00:52.082] Server  LOG     Groups: 0
+[00:00:52.082] Server  LOG     Total time: 10997ms
+[00:00:52.082] Server  LOG     ==============================
 
-[00:00:12.758] Server  ERROR   Failed to save market cache: {}
+[00:00:53.159] Server  ERROR   Failed to save market cache: {}
+[00:00:54.017] Server  LOG     DEV MODE: Skipping market cache, fetching fresh data
+[00:00:54.018] Server  LOG     Starting full Polymarket fetch...
+[00:00:54.018] Server  LOG     Fetching 13 batches of events in parallel...
+[00:00:54.609] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:36.073] Server  LOG     Fetched 6500 total events from Polymarket
+[00:01:36.074] Server  LOG     Step 1: Fetched 6500 events in 58368ms
+[00:01:36.168] Server  LOG     Step 2: Extracted 38943 total markets
+[00:01:36.793] Server  LOG     Step 3: Stage 1 filter: 38943 → 6169 markets
+[00:01:36.935] Server  LOG     KEYWORD MATCH for "Football.Fun FDV above $500M one day aft...": SPORTS=[football] (1) vs POLITICS=[] (0) => CRYPTO
+[00:01:36.936] Server  LOG     KEYWORD MATCH for "Football.Fun FDV above $1B one day after...": SPORTS=[football] (1) vs POLITICS=[] (0) => CRYPTO
+[00:01:36.936] Server  LOG     KEYWORD MATCH for "Football.Fun FDV above $70M one day afte...": SPORTS=[football] (1) vs POLITICS=[] (0) => CRYPTO
+[00:01:36.936] Server  LOG     KEYWORD MATCH for "Football.Fun FDV above $100M one day aft...": SPORTS=[football] (1) vs POLITICS=[] (0) => CRYPTO
+[00:01:36.937] Server  LOG     KEYWORD MATCH for "Football.Fun FDV above $300M one day aft...": SPORTS=[football] (1) vs POLITICS=[] (0) => CRYPTO
+[00:01:36.937] Server  LOG     KEYWORD MATCH for "Football.Fun FDV above $200M one day aft...": SPORTS=[football] (1) vs POLITICS=[] (0) => CRYPTO
+[00:01:36.950] Server  LOG     KEYWORD MATCH for "Will Fenerbahçe win the Süper Lig?...": SPORTS=[football] (1) vs POLITICS=[] (0) => FINANCE
+[00:01:37.553] Server  LOG     Step 4-5: Quick scored and selected top 1000 candidates
+[00:01:37.553] Server  LOG     Step 6: Fetching price history for top 500 markets...
+[00:01:39.684] Server  LOG     Fetched 6500 total events from Polymarket
+[00:01:39.684] Server  LOG     Step 1: Fetched 6500 events in 62038ms
+[00:01:39.746] Server  LOG     Step 2: Extracted 38943 total markets
+[00:01:40.353] Server  LOG     Step 3: Stage 1 filter: 38943 → 6169 markets
+[00:01:40.471] Server  LOG     KEYWORD MATCH for "Football.Fun FDV above $500M one day aft...": SPORTS=[football] (1) vs POLITICS=[] (0) => CRYPTO
+[00:01:40.471] Server  LOG     KEYWORD MATCH for "Football.Fun FDV above $1B one day after...": SPORTS=[football] (1) vs POLITICS=[] (0) => CRYPTO
+[00:01:40.472] Server  LOG     KEYWORD MATCH for "Football.Fun FDV above $70M one day afte...": SPORTS=[football] (1) vs POLITICS=[] (0) => CRYPTO
+[00:01:40.472] Server  LOG     KEYWORD MATCH for "Football.Fun FDV above $100M one day aft...": SPORTS=[football] (1) vs POLITICS=[] (0) => CRYPTO
+[00:01:40.472] Server  LOG     KEYWORD MATCH for "Football.Fun FDV above $300M one day aft...": SPORTS=[football] (1) vs POLITICS=[] (0) => CRYPTO
+[00:01:40.472] Server  LOG     KEYWORD MATCH for "Football.Fun FDV above $200M one day aft...": SPORTS=[football] (1) vs POLITICS=[] (0) => CRYPTO
+[00:01:40.483] Server  LOG     KEYWORD MATCH for "Will Fenerbahçe win the Süper Lig?...": SPORTS=[football] (1) vs POLITICS=[] (0) => FINANCE
+[00:01:41.037] Server  LOG     Step 4-5: Quick scored and selected top 1000 candidates
+[00:01:41.037] Server  LOG     Step 6: Fetching price history for top 500 markets...
+[00:01:46.095] Server  LOG     Fetched 6500 total events from Polymarket
+[00:01:46.095] Server  LOG     Step 1: Fetched 6500 events in 52077ms
+[00:01:46.177] Server  LOG     Step 2: Extracted 38943 total markets
+[00:01:46.829] Server  LOG     Step 3: Stage 1 filter: 38943 → 6169 markets
+[00:01:46.961] Server  LOG     KEYWORD MATCH for "Football.Fun FDV above $500M one day aft...": SPORTS=[football] (1) vs POLITICS=[] (0) => CRYPTO
+[00:01:46.961] Server  LOG     KEYWORD MATCH for "Football.Fun FDV above $1B one day after...": SPORTS=[football] (1) vs POLITICS=[] (0) => CRYPTO
+[00:01:46.962] Server  LOG     KEYWORD MATCH for "Football.Fun FDV above $70M one day afte...": SPORTS=[football] (1) vs POLITICS=[] (0) => CRYPTO
+[00:01:46.962] Server  LOG     KEYWORD MATCH for "Football.Fun FDV above $100M one day aft...": SPORTS=[football] (1) vs POLITICS=[] (0) => CRYPTO
+[00:01:46.962] Server  LOG     KEYWORD MATCH for "Football.Fun FDV above $300M one day aft...": SPORTS=[football] (1) vs POLITICS=[] (0) => CRYPTO
+[00:01:46.963] Server  LOG     KEYWORD MATCH for "Football.Fun FDV above $200M one day aft...": SPORTS=[football] (1) vs POLITICS=[] (0) => CRYPTO
+[00:01:46.975] Server  LOG     KEYWORD MATCH for "Will Fenerbahçe win the Süper Lig?...": SPORTS=[football] (1) vs POLITICS=[] (0) => FINANCE
+[00:01:47.616] Server  LOG     Step 4-5: Quick scored and selected top 1000 candidates
+[00:01:47.616] Server  LOG     Step 6: Fetching price history for top 500 markets...
+[00:01:50.233] Server  LOG     Price history fetched in 2616ms
+[00:01:50.851] Server  LOG     
+=== FULL PIPELINE COMPLETE ===
+[00:01:50.852] Server  LOG     Total events: 6500
+[00:01:50.852] Server  LOG     Total markets extracted: 38943
+[00:01:50.852] Server  LOG     After stage 1 filter: 6169
+[00:01:50.852] Server  LOG     Final processed: 1000
+[00:01:50.853] Server  LOG     Groups: 498
+[00:01:50.853] Server  LOG     Total time: 56833ms
+[00:01:50.853] Server  LOG     ==============================
+
+[00:01:52.678] Server  ERROR   Failed to save market cache: {}
+[00:01:52.679] Server  LOG     Starting editorial generation...
+[00:01:52.679] Server  LOG     Editorial: received 1000 markets
+[00:01:52.681] Server  LOG     === EDITORIAL DIRECTOR AGENT ===
+[00:01:52.682] Server  LOG     Editorial Director: Processing 1000 markets...
+[00:01:52.702] Server  LOG     Editorial Director: Clustered into 434 topics
+[00:01:52.703] Server  LOG     Editorial Director: Selected 80 candidate topics for AI review
+[00:01:52.786] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:52.787] Server  ERROR   RangeError: Maximum call stack size exceeded
+[00:01:52.792] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:52.793] Server  ERROR    ⨯ "unhandledRejection:" RangeError: Maximum call stack size exceeded
+[00:01:52.797] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:52.797] Server  ERROR    ⨯ "unhandledRejection: " RangeError: Maximum call stack size exceeded
+[00:01:52.801] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:52.801] Server  ERROR   RangeError: Maximum call stack size exceeded
+[00:01:52.805] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:52.806] Server  ERROR    ⨯ "unhandledRejection:" RangeError: Maximum call stack size exceeded
+[00:01:52.810] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:52.811] Server  ERROR    ⨯ "unhandledRejection: " RangeError: Maximum call stack size exceeded
+[00:01:52.941] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:52.942] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:52.944] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:52.945] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:52.948] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:52.949] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:52.952] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:52.953] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:52.958] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:52.959] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:52.966] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:52.969] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:52.974] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:52.975] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:52.979] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:52.980] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:52.985] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:52.987] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:52.993] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:52.994] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.000] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.002] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.005] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.006] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.011] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.012] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.017] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.019] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.024] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.025] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.028] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.030] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.033] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.035] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.037] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.039] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.042] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.043] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.045] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.046] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.050] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.051] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.053] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.054] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.058] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.059] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.061] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.063] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.066] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.068] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.070] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.072] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.075] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.076] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.079] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.080] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.084] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.085] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.088] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.089] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.093] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.094] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.098] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.099] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.102] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.103] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.107] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.109] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.111] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.114] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.118] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.119] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.125] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.126] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.128] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.130] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.133] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.134] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.146] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.147] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.150] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.152] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.155] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.156] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.159] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.160] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.162] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.163] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.165] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.166] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.169] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.170] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.172] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.173] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.174] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.175] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.177] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.178] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.181] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.181] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.183] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.184] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.187] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.188] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.191] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.192] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.194] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.195] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.197] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.198] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.201] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.202] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.205] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.206] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.209] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.209] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.212] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.212] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.215] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.216] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.219] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.220] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.222] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.224] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.227] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.228] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.231] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.232] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.235] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.236] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.238] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.239] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.242] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.243] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.245] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.246] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.249] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.251] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.254] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.255] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.258] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.260] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.264] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.268] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.272] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.274] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.277] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.279] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.283] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.284] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.287] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.289] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.292] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.293] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.296] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.298] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.302] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.303] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.307] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.309] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.312] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.314] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.317] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.319] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.322] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.323] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.328] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.329] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.333] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.334] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.338] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.339] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.343] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.345] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.349] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.350] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.354] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.356] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.360] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.361] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.364] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.366] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.369] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.371] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.374] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.375] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.380] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.382] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.385] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.387] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.391] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.393] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.397] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.399] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.402] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.404] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.409] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.411] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.415] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.416] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.420] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.421] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.425] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.426] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.429] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.431] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.434] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.435] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.439] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.441] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.445] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.447] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.451] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.453] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.457] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.459] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.462] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.464] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.469] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.471] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.476] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.478] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.483] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.485] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.489] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.491] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.494] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.495] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.498] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:53.500] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:53.501] Server  LOG     Price history fetched in 15947ms
+[00:01:53.936] Server  LOG     
+=== FULL PIPELINE COMPLETE ===
+[00:01:53.936] Server  LOG     Total events: 6500
+[00:01:53.937] Server  LOG     Total markets extracted: 38943
+[00:01:53.937] Server  LOG     After stage 1 filter: 6169
+[00:01:53.937] Server  LOG     Final processed: 1000
+[00:01:53.937] Server  LOG     Groups: 498
+[00:01:53.938] Server  LOG     Total time: 76231ms
+[00:01:53.938] Server  LOG     ==============================
+
+[00:01:54.935] Server  ERROR   Failed to save market cache: {}
+[00:01:54.936] Server  LOG     Starting editorial generation...
+[00:01:54.936] Server  LOG     Editorial: received 1000 markets
+[00:01:54.937] Server  LOG     === EDITORIAL DIRECTOR AGENT ===
+[00:01:54.937] Server  LOG     Editorial Director: Processing 1000 markets...
+[00:01:54.956] Server  LOG     Editorial Director: Clustered into 434 topics
+[00:01:54.957] Server  LOG     Editorial Director: Selected 80 candidate topics for AI review
+[00:01:54.973] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:54.974] Server  ERROR   RangeError: Maximum call stack size exceeded
+[00:01:54.976] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:54.976] Server  ERROR    ⨯ "unhandledRejection:" RangeError: Maximum call stack size exceeded
+[00:01:54.979] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:54.979] Server  ERROR    ⨯ "unhandledRejection: " RangeError: Maximum call stack size exceeded
+[00:01:54.982] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:54.983] Server  ERROR   RangeError: Maximum call stack size exceeded
+[00:01:54.985] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:54.985] Server  ERROR    ⨯ "unhandledRejection:" RangeError: Maximum call stack size exceeded
+[00:01:54.987] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:54.988] Server  ERROR    ⨯ "unhandledRejection: " RangeError: Maximum call stack size exceeded
+[00:01:55.499] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:55.500] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:55.501] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:55.502] Server  ERROR   Error fetching price history: TypeError: fetch failed
+[00:01:55.502] Server  LOG     Price history fetched in 14464ms
+[00:01:55.870] Server  LOG     
+=== FULL PIPELINE COMPLETE ===
+[00:01:55.870] Server  LOG     Total events: 6500
+[00:01:55.870] Server  LOG     Total markets extracted: 38943
+[00:01:55.871] Server  LOG     After stage 1 filter: 6169
+[00:01:55.871] Server  LOG     Final processed: 1000
+[00:01:55.871] Server  LOG     Groups: 498
+[00:01:55.871] Server  LOG     Total time: 78224ms
+[00:01:55.872] Server  LOG     ==============================
+
+[00:01:56.671] Server  ERROR   Failed to save market cache: {}
+[00:01:56.672] Server  LOG     Starting editorial generation...
+[00:01:56.673] Server  LOG     Editorial: received 1000 markets
+[00:01:56.674] Server  LOG     === EDITORIAL DIRECTOR AGENT ===
+[00:01:56.674] Server  LOG     Editorial Director: Processing 1000 markets...
+[00:01:56.689] Server  LOG     Editorial Director: Clustered into 434 topics
+[00:01:56.689] Server  LOG     Editorial Director: Selected 80 candidate topics for AI review
+[00:01:56.706] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:56.707] Server  ERROR   RangeError: Maximum call stack size exceeded
+[00:01:56.709] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:56.710] Server  ERROR    ⨯ "unhandledRejection:" RangeError: Maximum call stack size exceeded
+[00:01:56.712] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:56.712] Server  ERROR    ⨯ "unhandledRejection: " RangeError: Maximum call stack size exceeded
+[00:01:56.718] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:56.719] Server  ERROR   RangeError: Maximum call stack size exceeded
+[00:01:56.720] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:56.721] Server  ERROR    ⨯ "unhandledRejection:" RangeError: Maximum call stack size exceeded
+[00:01:56.724] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:01:56.724] Server  ERROR    ⨯ "unhandledRejection: " RangeError: Maximum call stack size exceeded
+[00:02:14.502] Server  LOG     Editorial Director: Selected 50 stories
+[00:02:14.502] Server  LOG       - LEAD: 1
+[00:02:14.502] Server  LOG       - FEATURE: 8
+[00:02:14.502] Server  LOG       - BRIEF: 41
+[00:02:14.503] Server  LOG       - Categories: {}
+[00:02:14.503] Server  LOG     Editorial Director reasoning: Today's front page leads with the imminent US strike threat on Iran (index 8) due to its active military stakes, $5.7M volume, and January 31 deadline. The 8 features span CONFLICT (6, 5, 4), FINANCE (12), POLITICS (1, 7), TECH (3), and CRYPTO (9) to reflect the day's most consequential developments. The 41 briefs ensure coverage of all major markets including elections, price targets, and natural disaster risks. The category breakdown shows CONFLICT and CRYPTO dominating due to high-volume markets, while maintaining diversity across all sectors.
+[00:02:14.504] Server  LOG     === GENERATING DATELINES (deterministic) ===
+[00:02:14.505] Server  LOG     === HEADLINE WRITER AGENT ===
+[00:02:14.506] Server  LOG     Headline Writer: Processing 50 stories in 5 batches...
+[00:02:17.465] Server  ERROR   No JSON found in response: ""
+[00:02:17.466] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:17.467] Server  ERROR   JSON parse error: Error: No JSON found in response
+[00:02:17.467] Server  ERROR   Content that failed to parse: ""
+[00:02:17.468] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:17.468] Server  ERROR   Headline Batch 1 failed: Error: No JSON found in response
+[00:02:18.194] Server  LOG     Headline Batch 3: 10 accepted, 0 fallback
+[00:02:18.437] Server  LOG     Headline Batch 2: 10 accepted, 0 fallback
+[00:02:19.666] Server  LOG     Headline Batch 0: 10 accepted, 0 fallback
+[00:02:30.627] Server  ERROR   No JSON found in response: ""
+[00:02:30.628] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:30.629] Server  ERROR   JSON parse error: Error: No JSON found in response
+[00:02:30.629] Server  ERROR   Content that failed to parse: ""
+[00:02:30.630] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:30.631] Server  ERROR   Editorial Director failed, using algorithmic fallback: Error: No JSON found in response
+[00:02:30.631] Server  LOG     Using algorithmic fallback for story selection
+[00:02:30.632] Server  LOG     Fallback selected: 50 stories (Lead: CONFLICT)
+[00:02:30.632] Server  LOG     Editorial Director reasoning: Algorithmic selection: top 50 topics with conflict-first lead priority
+[00:02:30.633] Server  LOG     === GENERATING DATELINES (deterministic) ===
+[00:02:30.633] Server  LOG     === HEADLINE WRITER AGENT ===
+[00:02:30.634] Server  LOG     Headline Writer: Processing 50 stories in 5 batches...
+[00:02:33.875] Server  LOG     Headline Batch 2: 10 accepted, 0 fallback
+[00:02:35.190] Server  LOG     Headline Batch 4: 10 accepted, 0 fallback
+[00:02:35.206] Server  LOG     Headline Batch 3: 10 accepted, 0 fallback
+[00:02:38.164] Server  LOG     Headline Batch 4: 10 accepted, 0 fallback
+[00:02:38.165] Server  LOG     Headline Writer: completed with 50 total headlines
+[00:02:38.165] Server  LOG     === ARTICLE WRITER AGENT ===
+[00:02:38.166] Server  LOG     Debug Context [0xabb86b080e9858dcb3f46954010e49b6f539c20036856c7f999395bfd58d01e6]: "\nCONTEXT/DESCRIPTION: \"This market will resolve to \"Yes\" if the US initiates a drone, missile, or air strike on Iranian soil or any official Iranian embassy or consulate between the time of this market's creation and the listed date (ET). Otherwise, this market will resolve to \"No\".  For the purposes of this market, a qua...\""
+[00:02:38.166] Server  LOG     Debug Context [0xf8b730810252255fa217a2828b46b7a3c0ed63b702c817461270ce9e65b5ec25]: "\nCONTEXT/DESCRIPTION: \"This market will resolve to \"Yes\" if either Israel initiates a drone, missile, or air strike on Iranian soil or any official Iranian embassy or consulate, or Iran initiates a drone, missile, or air strike on Israeli soil or any official Israeli embassy or consulate, by 11:59 PM ET on the listed date...\""
+[00:02:38.166] Server  LOG     Debug Context [0xaeea5f917fc5746387b5f9c0a4263dba035dbb3f0ac6ad72bf92183d21e26739]: "\nCONTEXT/DESCRIPTION: \"This market will resolve to \"Yes\" if there is an official ceasefire agreement, defined as a publicly announced and mutually agreed halt in military engagement, between Russia and Ukraine by December 31, 2026, 11:59 PM ET.  If the agreement is officially reached before the resolution date, this marke...\""
+[00:02:38.167] Server  LOG     Article Writer: Processing 50 stories in 10 batches...
+[00:02:40.306] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\node_modules_openai_a6b036b7._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:40.306] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:40.307] Server  WARN    Attempt 1 failed, retrying in 500ms... Error: 429 Too many requests
+[00:02:41.190] Server  LOG     Editorial Director: Selected 50 stories
+[00:02:41.191] Server  LOG       - LEAD: 1
+[00:02:41.191] Server  LOG       - FEATURE: 8
+[00:02:41.191] Server  LOG       - BRIEF: 41
+[00:02:41.192] Server  LOG       - Categories: {}
+[00:02:41.192] Server  LOG     Editorial Director reasoning: Today's front page leads with US strikes Iran by January 31 (index 8) because it represents the most imminent and high-stakes geopolitical crisis. With 65% odds of NOT happening but $5.7M volume and 15-day resolution, this is active military escalation with global consequences. The 8 features cover 5 categories: 4 conflict stories (Israel-Iran, broader US-Iran timelines, Ukraine-Russia, Iranian regime stability), 1 major election (Brazil 2026), and 1 economic policy story (Fed no hike). This reflects a world dominated by geopolitical tension and conflict, with significant financial markets reacting accordingly. The 41 briefs provide comprehensive coverage across all categories: 6 additional conflict stories, 10 crypto stories (including multiple intraday price movements resolving today), 8 politics stories (elections, leadership), 7 tech stories (stock valuations, products), 4 science stories (climate, weather, earthquakes), 4 business stories (IPOs, gaming), 3 culture stories (awards), 2 finance stories (commodities, GDP), and 1 sports story. The category breakdown shows conflict and crypto dominating today's news cycle, which accurately reflects the current geopolitical and market environment. The diversity requirement is met with 9 categories represented, and the lead story's category (CONFLICT) is well-represented throughout the page.
+[00:02:41.192] Server  LOG     === GENERATING DATELINES (deterministic) ===
+[00:02:41.193] Server  LOG     === HEADLINE WRITER AGENT ===
+[00:02:41.193] Server  LOG     Headline Writer: Processing 50 stories in 5 batches...
+[00:02:42.132] Server  LOG     Headline Batch 0: 10 accepted, 0 fallback
+[00:02:44.228] Server  LOG     Article Batch 6 RAW: "```json\n{\n  \"0\": \"Traders bet on a heatwave in Buenos Aires, pricing a 52% chance that temperatures will stay below 30°C on January 16. With $1,000 in action, the market is closely watching the Minister Pistarini Intl Airport Station for the final reading. A 'Yes' resolution would reward contrarians who are betting against a sweltering summer peak.\",\n  \"1\": \"Seattle traders are split on the city's winter chill, with a 60% probability priced against a high of 52-53°F on January 16. The $1,000 vol"
+[00:02:44.228] Server  LOG     Article Batch 6 KEYS: ["0","1","2","3","4"]
+[00:02:44.623] Server  ERROR   No JSON found in response: ""
+[00:02:44.624] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:44.624] Server  ERROR   JSON parse error: Error: No JSON found in response
+[00:02:44.624] Server  ERROR   Content that failed to parse: ""
+[00:02:44.625] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:44.625] Server  ERROR   Headline Batch 1 failed: Error: No JSON found in response
+[00:02:46.360] Server  LOG     Article Batch 2 RAW: ""
+[00:02:46.361] Server  ERROR   No JSON found in response: ""
+[00:02:46.361] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:46.362] Server  ERROR   JSON parse error: Error: No JSON found in response
+[00:02:46.362] Server  ERROR   Content that failed to parse: ""
+[00:02:46.363] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:46.364] Server  ERROR   Article Batch 2 failed: Error: No JSON found in response
+[00:02:47.030] Server  LOG     Article Batch 9 RAW: "```json\n{\n    \"0\": \"IRAN REGIME HOLDS\\n\\nPrediction markets assign a 71% probability that the Islamic Republic will survive past June 30, 2026, despite ongoing dissent.\\n\\nTraders have wagered $103,000 on the outcome, with the 'No' position commanding a significant premium. This pricing suggests the market views regime collapse as a low-probability event within the specified timeframe, requiring a broad consensus of structural failure not currently priced in.\",\n    \"1\": \"SEGURU CLINCHES LEAD\\n\\n"
+[00:02:47.031] Server  LOG     Article Batch 9 KEYS: ["0","1","2","3","4"]
+[00:02:47.558] Server  LOG     Article Batch 8 RAW: "```json\n{\n    \"0\": \"ETHEREUM PLUNGES\\n\\nEthereum's price is set to drop during the January 16 afternoon session, with traders pricing a 50% probability of a decline. The $7K volume in this contested market reflects sharp disagreement over immediate market direction. This binary outcome suggests extreme volatility as the clock ticks toward the 4:00PM ET resolution.\",\n    \"1\": \"CORNYN FACES REBUKE\\n\\nSenator John Cornyn is positioned to lose his Republican primary re-election bid in 2026, with the"
+[00:02:47.559] Server  LOG     Article Batch 8 KEYS: ["0","1","2","3","4"]
+[00:02:48.571] Server  LOG     Article Batch 5 RAW: "```json\n{\n  \"0\": \"Ariana Grande stands on the precipice of an Oscar nomination, with prediction markets pricing a 53% chance she secures a Best Supporting Actress nod for the 98th Academy Awards. The $1,000 in wagered volume on this contentious market reflects divided sentiment among Hollywood handicappers. While the odds edge toward a 'Yes' resolution, the tight spread suggests the Academy's nomination announcement on January 22 remains a coin flip.\",\n  \"1\": \"XRP faces a volatile morning sessio"
+[00:02:48.572] Server  LOG     Article Batch 5 KEYS: ["0","1","2","3","4"]
+[00:02:48.717] Server  LOG     Headline Batch 0: 10 accepted, 0 fallback
+[00:02:49.081] Server  LOG     Headline Batch 3: 10 accepted, 0 fallback
+[00:02:49.342] Server  LOG     Headline Batch 4: 10 accepted, 0 fallback
+[00:02:50.467] Server  LOG     Article Batch 4 RAW: "{\n  \"20\": \"Tesla’s June 30 deadline for unsupervised FSD is all but certain to pass without a launch. With 62% odds against it and $6K wagered, the market bets Musk’s timeline slips again. The calculus shifts to regulatory hurdles and real-world safety data.\",\n  \"21\": \"Apple’s stock faces a tight battle to hold above $260 by month’s end. With 52% odds against it and just $1K in volume, traders see it as too close to call. The ledger suggests investors await earnings guidance before committing ca"
+[00:02:50.467] Server  LOG     Article Batch 4 KEYS: ["20","21","22","23","24"]
+[00:02:50.873] Server  LOG     Headline Batch 2: 10 accepted, 0 fallback
+[00:02:50.873] Server  LOG     Headline Writer: completed with 50 total headlines
+[00:02:50.874] Server  LOG     === ARTICLE WRITER AGENT ===
+[00:02:50.874] Server  LOG     Debug Context [0xabb86b080e9858dcb3f46954010e49b6f539c20036856c7f999395bfd58d01e6]: "\nCONTEXT/DESCRIPTION: \"This market will resolve to \"Yes\" if the US initiates a drone, missile, or air strike on Iranian soil or any official Iranian embassy or consulate between the time of this market's creation and the listed date (ET). Otherwise, this market will resolve to \"No\".  For the purposes of this market, a qua...\""
+[00:02:50.874] Server  LOG     Debug Context [0xf8b730810252255fa217a2828b46b7a3c0ed63b702c817461270ce9e65b5ec25]: "\nCONTEXT/DESCRIPTION: \"This market will resolve to \"Yes\" if either Israel initiates a drone, missile, or air strike on Iranian soil or any official Iranian embassy or consulate, or Iran initiates a drone, missile, or air strike on Israeli soil or any official Israeli embassy or consulate, by 11:59 PM ET on the listed date...\""
+[00:02:50.875] Server  LOG     Debug Context [0x4b02efe53e631ada84681303fd66d79ad615f3d2b6a28b4633d43d935f89af58]: "\nCONTEXT/DESCRIPTION: \"This market will resolve to \"Yes\" if the US initiates a drone, missile, or air strike on Iranian soil or any official Iranian embassy or consulate between the time of this market's creation and the listed date (ET). Otherwise, this market will resolve to \"No\".  For the purposes of this market, a qua...\""
+[00:02:50.875] Server  LOG     Article Writer: Processing 50 stories in 10 batches...
+[00:02:51.988] Server  LOG     Article Batch 0 RAW: "```json\n{\n  \"0\": \"NEW YORK — The world’s traders are pricing in the unthinkable: a direct U.S. strike on Iran within the next two weeks. The question is no longer if the drums of war are beating, but how loudly the market hears them.\\n\\nA prediction market tracking the likelihood of a U.S. drone, missile, or air strike on Iranian soil or official embassies by January 31, 2026, currently holds $1.7 million in volume. Despite the high stakes, the crowd remains skeptical, pricing the \\\"No\\\" outcome"
+[00:02:51.988] Server  LOG     Article Batch 0 KEYS: ["0","1","2","3","4"]
+[00:02:53.940] Server  LOG     Article Batch 1 RAW: "```json\n{\n  \"5\": \"VANCE CLINCHES NOMINATION RACE\\nNEW YORK — J.D. Vance has secured the 2028 Republican presidential nomination, delivering a decisive victory that defies early skepticism. The Polymarket prediction board confirmed the resolution late Tuesday, with traders shifting to price the outcome at 52% just hours before the official GOP consensus was announced.\\n\\nThe $34,000 volume in the \\\"Will J.D. Vance win\\\" market captured the knife-edge nature of the race. Even as odds tightened, th"
+[00:02:53.941] Server  LOG     Article Batch 1 KEYS: ["5","6","7","8","9"]
+[00:02:55.340] Server  LOG     Headline Batch 1: 10 accepted, 0 fallback
+[00:02:55.340] Server  LOG     Headline Writer: completed with 50 total headlines
+[00:02:55.340] Server  LOG     === ARTICLE WRITER AGENT ===
+[00:02:55.341] Server  LOG     Debug Context [0x2603d5576c488e4f2a4fa41677917044e796917b2ff251d639b635062fe6b068]: "\nCONTEXT/DESCRIPTION: \"This market will immediately resolve to \"Yes\" if any Binance 1 minute candle for BTC/USDT during the month specified in the title (from 00:00 AM ET on the first day to 11:59 PM ET on the last), has a final High price equal to or greater than the price specified in the title. Otherwise, this market w...\""
+[00:02:55.341] Server  LOG     Debug Context [0x18b1c135d0a40c5894da9412e77311827d9caf16cf4cd6591b247a34730af919]: "\nCONTEXT/DESCRIPTION: \"This market will resolve to “Yes” if the named individual wins and accepts the 2028 nomination of the Republican Party for U.S. president. Otherwise, this market will resolve to “No”.  The resolution source for this market will be a consensus of official Republican Party sources.  Any replacement of...\""
+[00:02:55.341] Server  LOG     Debug Context [0x61b66d02793b4a68ab0cc25be60d65f517fe18c7d654041281bb130341244fcc]: "\nCONTEXT/DESCRIPTION: \"This market will resolve according to the next individual Donald Trump, as President of the United States, formally nominates to be Chair of the Federal Reserve by December 31, 2026, 11:59 PM ET.   Formal nominations are defined as the submission of a nomination message to the U.S. Senate.  Acting o...\""
+[00:02:55.342] Server  LOG     Article Writer: Processing 50 stories in 10 batches...
+[00:02:57.540] Server  LOG     Article Batch 3 RAW: "```json\n{\n  \"0\": \"GOOGLE (GOOGL) CLOSE ABOVE $340 END O...: RACE TIGHTENS\\n\\nGoogle stock enters the final stretch of January with a coin-flip chance of closing above $340. The Polymarket ledger shows a contentious battle, with 'No' holding a razor-thin 51% edge over 'Yes' despite $2,000 in volume wagered. Traders remain divided on the tech giant's ability to secure a monthly close above this psychological resistance level.\",\n  \"1\": \"XRP DIP TO $2.00 JANUARY 12-18 FALLS BEHIND\\n\\nXRP traders are"
+[00:02:57.541] Server  LOG     Article Batch 3 KEYS: ["0","1","2","3","4"]
+[00:02:58.636] Server  LOG     Article Batch 3 RAW: ""
+[00:02:58.637] Server  ERROR   No JSON found in response: ""
+[00:02:58.638] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:58.639] Server  ERROR   JSON parse error: Error: No JSON found in response
+[00:02:58.639] Server  ERROR   Content that failed to parse: ""
+[00:02:58.640] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:58.640] Server  ERROR   Article Batch 3 failed: Error: No JSON found in response
+[00:02:59.796] Server  LOG     Article Batch 1 RAW: "{\n  \"5\": \"The Islamic Republic of Iran’s grip on power appears unshakable, according to prediction markets pricing a 71% chance the regime survives through June 30. Despite years of unrest and economic turmoil, traders are betting against a collapse, with $103,000 in volume staked on the 'No' resolution. The market’s 'contested' status reflects deep uncertainty over what constitutes a regime fall—whether it requires total dissolution or mere loss of territorial control. If the mullahs hold on, e"
+[00:02:59.796] Server  LOG     Article Batch 1 KEYS: ["5","6","7","8","9"]
+[00:03:00.166] Server  LOG     Article Batch 2 RAW: "```json\n{\n  \"10\": \"J.D. Vance holds a razor-thin 52% edge for the 2028 Republican nomination, with $34K wagered on the outcome. The market implies a contested convention, where Vance's momentum clashes with establishment resistance. A victory here cements his status as the post-Trump standard-bearer; a loss likely ends his presidential ambitions.\",\n  \"11\": \"Markets bet against a Kevin Warsh Fed chairmanship, pricing a 56% chance of 'No' despite $147K in volume. Traders are pricing in Trump's pre"
+[00:03:00.167] Server  LOG     Article Batch 2 KEYS: ["10","11","12","13","14"]
+[00:03:02.639] Server  LOG     Article Batch 8 RAW: "```json\n{\n  \"0\": \"2026 SETS NEW HEAT RECORDS: Prediction traders are pricing in a 74% chance that 2026 will be the second-hottest year on record, according to Global Land-Ocean Temperature Index data. With $4,000 in volume wagered on the outcome, the market implies confidence in a continued warming trend, trailing only the record-shattering 2024. The decisive 'No' position suggests the market views a repeat of 2024's extremes as unlikely, favoring a slightly cooler—but still historically hot—yea"
+[00:03:02.640] Server  LOG     Article Batch 8 KEYS: ["0","1","2","3","4"]
+[00:03:03.155] Server  LOG     Article Batch 4 RAW: "```json\n{\n    \"0\": \"XRP has defied speculators betting on a drop to $2.00 this week, with the 'No' position maintaining a slight edge. The Polymarket crowd is pricing a 55% chance that XRP will not breach the $2.00 support level on Binance between January 12-18, a call backed by $8,000 in volume. While the crypto asset remains volatile, the ledger suggests sellers have failed to engineer the deep correction bears anticipated.\",\n    \"1\": \"EdgeX’s ambitious token launch has stumbled, with traders "
+[00:03:03.155] Server  LOG     Article Batch 4 KEYS: ["0","1","2","3","4"]
+[00:03:03.235] Server  LOG     Article Batch 9 RAW: ""
+[00:03:03.236] Server  ERROR   No JSON found in response: ""
+[00:03:03.239] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:03:03.240] Server  ERROR   JSON parse error: Error: No JSON found in response
+[00:03:03.240] Server  ERROR   Content that failed to parse: ""
+[00:03:03.242] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:03:03.243] Server  ERROR   Article Batch 9 failed: Error: No JSON found in response
+[00:03:03.534] Server  LOG     Article Batch 6 RAW: "```json\n{\n    \"0\": \"Tesla's promise of unsupervised Full Self-Driving has effectively evaporated by the June 30 deadline. The market now prices the launch at just 38% likelihood, a decisive shift from earlier optimism. While $6,000 in volume isn't massive, the 62% \\\"No\\\" consensus reflects deep skepticism about the technology's readiness. This marks a significant setback for Elon Musk's autonomous driving timeline, pushing the goalpost further into the future.\",\n    \"1\": \"Playboi Carti fans are "
+[00:03:03.535] Server  LOG     Article Batch 6 KEYS: ["0","1","2","3","4"]
+[00:03:04.072] Server  LOG     Article Batch 4 RAW: "```json\n{\n  \"0\": \"TRUMP OUT BEFORE GTA VI? | WASHINGTON (Jul 2026) — Markets are pricing a coin flip that Donald Trump ceases to be President before Grand Theft Auto VI releases, with 'Yes' trading at 52%. The contest is locked, but with $0 volume to date, the odds reflect pure sentiment rather than institutional cash. If Trump exits early, the market resolves to 'Yes'; if he remains through the July 31 deadline, it settles at 'No.'\",\n  \"1\": \"TESLA EYES $440 | NEW YORK (Jan 2026) — Traders are b"
+[00:03:04.073] Server  LOG     Article Batch 4 KEYS: ["0","1","2","3","4"]
+[00:03:04.759] Server  LOG     Article Batch 3 RAW: "```json\n{\n  \"0x79afea6a94f0b3dffb5e0886fa1dbd740d688029f7aba351dc46911bcb1b1f95\": \"NVIDIA is positioned to become the world's largest company, with traders pricing a 56% chance of market cap supremacy by June 30, 2026. $4K in volume supports the contested 'Yes' momentum, suggesting institutional capital is hedging against the AI leader's continued surge. If the chipmaker claims the throne, it signals a definitive shift from software dominance to hardware-as-infrastructure, reshaping global valua"
+[00:03:04.759] Server  LOG     Article Batch 3 KEYS: ["0x79afea6a94f0b3dffb5e0886fa1dbd740d688029f7aba351dc46911bcb1b1f95","0x8929b01651f44fae2e7b5bd1832662099d81b5494450e1030a6b9b42ec61110f","0x998bc71817b2d76921d1999ce0f3431cfd5945583667a371280ca2b430b0c06e","0xd0a7b99e6cce9ef83812529a1dcc8334aad78de032e279dbde794307cdfd3b34","0xd2f31e560a8f00a40d0db179caa41f7ca4ddfb8c4c623d865716354e508f9459"]
+[00:03:05.163] Server  LOG     Article Batch 0 RAW: "```json\n{\n  \"0\": \"Bitcoin stands on the precipice of $100,000, with traders pricing a 48% chance of a breakout by month's end. The 'Bitcoin Eyes $100K' market on Polymarket shows 'No' shares trading at 52%, reflecting skepticism despite $271,000 in volume. The market's strict resolution criteria—requiring a single Binance 1-minute candle to close at or above $100,000—creates a high barrier for bulls. With odds essentially even, the market implies traders view the psychological level as a formida"
+[00:03:05.163] Server  LOG     Article Batch 0 KEYS: ["0","1","2","3","4"]
+[00:03:05.260] Server  LOG     Article Batch 2 RAW: "```json\n{\n  \"0\": \"MegaETH's launch-day valuation has failed to breach the critical $2 billion threshold, with the fully diluted valuation stagnating at approximately $2B. According to Polymarket data, the 'No' position commands a marginal 52% advantage, reflecting a market consensus that the token's liquidity and swapability fell short of expectations. The $58,000 in wagered volume underscores significant trader skepticism toward the Layer-2 scaling solution's immediate economic footprint. This "
+[00:03:05.260] Server  LOG     Article Batch 2 KEYS: ["0","1","2","3","4"]
+[00:03:06.188] Server  LOG     Article Batch 8 RAW: "```json\n{\n  \"0\": \"U.S. Customs Revenue Surges Past Threshold, Prediction Markets Signal Contested Resolution\\n\\nThe market resolution appears imminent as FY 2025 customs duty receipts hit $82.2 billion, comfortably below the $100 billion threshold required for a 'No' resolution. With 59% of traders betting against U.S. revenue targets and $2,000 in volume riding on the outcome, the ledger suggests a quiet victory for fiscal conservatives. The implication is straightforward: government intake und"
+[00:03:06.189] Server  LOG     Article Batch 8 KEYS: ["0","1","2","3","4"]
+[00:03:06.963] Server  LOG     Article Batch 5 RAW: "{\n  \"25\": \"Apple shares face headwinds into January’s close, with traders pricing a 52% chance the stock fails to reclaim $260. A modest $1K wagered underscores the market’s muted appetite for conviction in a stock traditionally seen as a safe harbor. If the market holds its position, it signals a rare moment of investor caution toward the Cupertino giant, potentially capping its early-year momentum.\",\n  \"26\": \"The odds suggest 2026 will indeed cement itself as a record-breaking scorcher, with t"
+[00:03:06.964] Server  LOG     Article Batch 5 KEYS: ["25","26","27","28","29"]
+[00:03:07.192] Server  LOG     Article Batch 9 RAW: "```json\n{\n  \"0\": \"**COOK HOLDS LINE**\\n\\nTim Cook remains Apple’s CEO, with prediction markets pricing a 55% chance he stays through 2026. The Polymarket contract, tracking any departure between November 2025 and year-end, has seen minimal volume—suggesting traders view a sudden Cook exit as unlikely despite recent succession chatter. With $0 wagered, the market reflects quiet confidence rather than aggressive speculation. If the ‘No’ outcome holds, it reinforces stability at the top of the worl"
+[00:03:07.192] Server  LOG     Article Batch 9 KEYS: ["0","1","2","3","4"]
+[00:03:07.740] Server  LOG     Article Batch 0 RAW: "```json\n{\n  \"0\": \"NEW YORK — The probability of direct US military action against Iran has tightened significantly this month, with predictive markets now pricing the scenario as a coin-flip proposition. The Polymarket Times can report that traders have driven the odds for a US strike on Iranian soil or diplomatic assets by January 31, 2026, down to 35% \\\"Yes\\\". This represents a dramatic shift from earlier summer levels, where the probability hovered near 43%. The market's liquidity has swelled"
+[00:03:07.741] Server  LOG     Article Batch 0 KEYS: ["0","1","2","3","4"]
+[00:03:08.533] Server  LOG     Article Batch 7 RAW: "```json\n{\n  \"0\": \"Take-Two Interactive has officially deferred the launch of Grand Theft Auto VI to November 19, 2026.\\n\\nPrediction markets peg the probability of further delays at 57% 'No'—a contested edge favoring the new timeline. With just $1K in volume wagered, the liquidity remains thin, suggesting institutional capital is waiting for clearer production milestones before taking a definitive position.\\n\\nThe calculus shifts to Rockstar's internal crunch; if the studio hits the November tar"
+[00:03:08.534] Server  LOG     Article Batch 7 KEYS: ["0","1","2","3","4"]
+[00:03:10.919] Server  LOG     Article Batch 7 RAW: "```json\n{\n  \"0\": \"ANTHROPIC EYES IPO\\n\\nNEW YORK — The market is betting heavily against an Anthropic IPO before 2027, with \\\"No\\\" shares trading at 52% despite the high-profile nature of the AI darling.\\n\\nTraders have wagered just $2,000 on the outcome, signaling minimal institutional conviction in either direction. The contested odds suggest a divided market on whether the OpenAI rival will succumb to public market pressure or remain private.\\n\\nIf the No position holds, it implies investors "
+[00:03:10.920] Server  LOG     Article Batch 7 KEYS: ["0","1","2","3","4"]
+[00:03:12.982] Server  LOG     Article Batch 7 RAW: "```json\n{\n  \"0\": \"NEW YORK — California's proposed one-time wealth tax on billionaires has been decisively rejected by prediction markets, with 'No' shares commanding a narrow but persistent lead at 51%. The $17K volume reflects high-stakes wagering on a ballot initiative that would have taxed the ultra-wealthy to offset Medicaid cuts. With the probability softening below certainty, the calculus shifts: California's budget deficit will likely require alternative funding sources, leaving low-inco"
+[00:03:12.983] Server  LOG     Article Batch 7 KEYS: ["0","1","2","3","4"]
+[00:03:12.983] Server  LOG     === CONTRARIAN AGENT (Alpha Signals) ===
+[00:03:12.984] Server  LOG     Contrarian Agent: Generating devil's advocate takes for 9 stories...
+[00:03:18.702] Server  LOG     Article Batch 5 RAW: "```json\n{\n    \"0\": \"FED HOLDS LINE\\n\\nThe Federal Reserve is signaling a prolonged pause, with traders pricing a 55% probability that no rate cut will occur before the April 2026 FOMC meeting. This contested market, backed by $1,000 in volume, reflects a statistical deadlock between those predicting a policy shift and those betting on continuity. The market resolves based on whether the upper bound of the target federal funds rate decreases between December 2025 and the April meeting's conclusio"
+[00:03:18.702] Server  LOG     Article Batch 5 KEYS: ["0","1","2","3","4"]
+[00:03:20.258] Server  LOG     Article Batch 6 RAW: "```json\n{\n  \"0\": \"Kendrick Lamar and SZA’s “Luther” now holds a 52% probability of winning Record of the Year at the 68th Annual GRAMMY Awards, per Polymarket traders. The $1,000 volume reflects the contested nature of the race, where the track holds a razor-thin lead over the field. With nominations set for November 2025 and the ceremony in February 2026, the market implies a tight contest where industry momentum currently favors the collaboration. If the odds hold, it positions the duo as the "
+[00:03:20.258] Server  LOG     Article Batch 6 KEYS: ["0","1","2","3","4"]
+[00:03:20.259] Server  LOG     === CONTRARIAN AGENT (Alpha Signals) ===
+[00:03:20.259] Server  LOG     Contrarian Agent: Generating devil's advocate takes for 9 stories...
+[00:03:23.479] Server  LOG     Contrarian Batch 0: 5 takes, 0 high-confidence
+[00:03:24.860] Server  LOG     Article Batch 1 RAW: "```json\n{\n  \"0\": \"RUSSIA REJECTS CEASEFIRE\\n\\nKYIV (Dec 2026) — A high-stakes prediction market priced for peace has collapsed, with traders now betting against a Russia-Ukraine ceasefire before the 2026 deadline. The market resolving to 'Yes' if a mutually agreed halt to fighting is announced by year’s end is trading at 41%, reflecting growing skepticism. With $37,000 in volume wagered, the 'No' position commands a commanding 59% probability, suggesting insiders see little diplomatic momentum d"
+[00:03:24.861] Server  LOG     Article Batch 1 KEYS: ["0","1","2","3","4"]
+[00:03:24.861] Server  LOG     === CONTRARIAN AGENT (Alpha Signals) ===
+[00:03:24.861] Server  LOG     Contrarian Agent: Generating devil's advocate takes for 9 stories...
+[00:03:26.345] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\node_modules_openai_a6b036b7._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:03:26.346] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\.next\dev\server\chunks\ssr\[root-of-the-server]__f645a494._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:03:26.346] Server  WARN    Attempt 1 failed, retrying in 500ms... Error: 429 Too many requests
+[00:03:28.806] Server  LOG     Contrarian Batch 0: 5 takes, 0 high-confidence
+[00:03:33.885] Server  LOG     Contrarian Batch 1: 4 takes, 0 high-confidence
+[00:03:35.580] Server  LOG     Contrarian Batch 0: 5 takes, 2 high-confidence
+[00:03:35.581] Server  LOG     Contrarian Agent: Generated 9 contrarian takes. 2 challenge consensus with high confidence.
+[00:03:35.581] Server  LOG     Contrarian Agent: Generated 9 alpha signals
+[00:03:35.581] Server  LOG     === INTELLIGENCE AGENT (Market Movers) ===
+[00:03:35.583] Server  LOG     Intelligence Agent: Generated 0 intelligence briefs
+[00:03:35.583] Server  LOG     DEV MODE: Skipping cache save
+[00:03:35.586] Server  LOG     Editorial generation complete!
+[00:03:35.605] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:03:35.606] Server  ERROR   RangeError: Maximum call stack size exceeded
+[00:03:35.609] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:03:35.609] Server  ERROR    ⨯ "unhandledRejection:" RangeError: Maximum call stack size exceeded
+[00:03:35.613] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:03:35.614] Server  ERROR    ⨯ "unhandledRejection: " RangeError: Maximum call stack size exceeded
+[00:03:36.434] Server  LOG     New edition detected - clearing old history
+[00:03:36.621] Server  ERROR   Error clearing old history: {}
+[00:03:36.913] Server  ERROR   Error batch recording markets: {}
+[00:03:45.608] Server  LOG     Contrarian Batch 1: 4 takes, 1 high-confidence
+[00:03:45.609] Server  LOG     Contrarian Agent: Generated 9 contrarian takes. 1 challenge consensus with high confidence.
+[00:03:45.609] Server  LOG     Contrarian Agent: Generated 9 alpha signals
+[00:03:45.609] Server  LOG     === INTELLIGENCE AGENT (Market Movers) ===
+[00:03:45.610] Server  LOG     Intelligence Agent: Generated 0 intelligence briefs
+[00:03:45.610] Server  LOG     DEV MODE: Skipping cache save
+[00:03:45.612] Server  LOG     Editorial generation complete!
+[00:03:45.623] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:03:45.623] Server  ERROR   RangeError: Maximum call stack size exceeded
+[00:03:45.625] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:03:45.626] Server  ERROR    ⨯ "unhandledRejection:" RangeError: Maximum call stack size exceeded
+[00:03:45.627] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:03:45.628] Server  ERROR    ⨯ "unhandledRejection: " RangeError: Maximum call stack size exceeded
+[00:03:46.177] Server  LOG     New edition detected - clearing old history
+[00:03:46.368] Server  ERROR   Error clearing old history: {}
+[00:03:46.663] Server  ERROR   Error batch recording markets: {}
+[00:03:52.678] Server  WARN    Editorial generation timed out or failed: "Editorial timeout"
+[00:03:52.685] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:03:52.685] Server  ERROR   RangeError: Maximum call stack size exceeded
+[00:03:52.688] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:03:52.688] Server  ERROR    ⨯ "unhandledRejection:" RangeError: Maximum call stack size exceeded
+[00:03:52.690] Server  ERROR   C:\Users\BW-LP-271\Desktop\文件夹集合\测试\PolymarketTimes\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:03:52.691] Server  ERROR    ⨯ "unhandledRejection: " RangeError: Maximum call stack size exceeded
+[00:03:56.317] Server  LOG     Contrarian Batch 1: 4 takes, 0 high-confidence
+[00:03:56.317] Server  LOG     Contrarian Agent: Generated 9 contrarian takes. 0 challenge consensus with high confidence.
+[00:03:56.317] Server  LOG     Contrarian Agent: Generated 9 alpha signals
+[00:03:56.318] Server  LOG     === INTELLIGENCE AGENT (Market Movers) ===
+[00:03:56.319] Server  LOG     Intelligence Agent: Generated 0 intelligence briefs
+[00:03:56.319] Server  LOG     DEV MODE: Skipping cache save
+[00:03:56.785] Server  LOG     New edition detected - clearing old history
+[00:03:56.968] Server  ERROR   Error clearing old history: {}
+[00:03:57.375] Server  ERROR   Error batch recording markets: {}
+[00:07:42.435] Server  LOG      ✓ Compiled in 94ms
+[00:07:47.925] Server  LOG      ✓ Compiled in 92ms
+[00:07:57.584] Server  LOG      ✓ Compiled in 64ms
+[00:08:04.121] Server  LOG      ✓ Compiled in 62ms

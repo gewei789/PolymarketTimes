@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "test:ai": "tsx scripts/test-cloudflare-ai.ts",
+    "pages:build": "npx @opennextjs/cloudflare build",
+    "pages:deploy": "npm run pages:build && npx @opennextjs/cloudflare deploy"
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
@@ -18,6 +21,7 @@
     "swr": "^2.3.8"
   },
   "devDependencies": {
+    "@opennextjs/cloudflare": "^1.14.8",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
@@ -25,6 +29,7 @@
     "eslint": "^9",
     "eslint-config-next": "16.0.10",
     "tailwindcss": "^4",
+    "tsx": "^4.21.0",
     "typescript": "^5"
   }
 }

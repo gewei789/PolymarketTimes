@@ -9,6 +9,7 @@ import MarketTicker from './components/MarketTicker';
 import MainContentWrapper from './components/MainContentWrapper';
 import ReadableModeToggle from './components/ReadableModeToggle';
 import OnboardingFlow from './components/OnboardingFlow';
+import AIChatWidget from './components/AIChatWidget';
 import { BreakingAlertsTicker, LastUpdatedIndicator, RefreshButton } from './components/LiveUpdates';
 import { getMarkets } from './api/markets/route';
 import { getEditorial } from './api/editorial/route';
@@ -359,6 +360,9 @@ export default async function Home() {
 
       {/* Onboarding Flow for first-time visitors */}
       <OnboardingFlow />
+
+      {/* AI Chat Widget */}
+      <AIChatWidget />
     </div>
   );
 }

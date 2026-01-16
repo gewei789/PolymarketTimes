@@ -737,7 +737,7 @@ function Footer({ contestedMarkets }) {
                             }, void 0, false, {
                                 fileName: "[project]/app/components/Footer.tsx",
                                 lineNumber: 104,
-                                columnNumber: 168
+                                columnNumber: 174
                             }, this)
                         ]
                     }, void 0, true, {
