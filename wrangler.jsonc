@@ -1,0 +1,25 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "polymarket-times",
+  "compatibility_date": "2026-01-16",  // 或更新的日期，如 "2026-01-01"
+  "compatibility_flags": [
+    "nodejs_compat",
+    "nodejs_compat_v2",
+    "global_fetch_strictly_public"  // 建议加上，Next.js fetch 更稳定
+  ],
+  "main": ".open-next/worker.js",
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
+  // Pages 专用键：必须有这个，指向 OpenNext 构建输出根目录
+  "pages_build_output_dir": ".open-next",
+
+  // 可选：自引用服务绑定（常见于 OpenNext）
+  "services": [
+    {
+      "binding": "WORKER_SELF_REFERENCE",
+      "service": "polymarket-times"
+    }
+  ]
+}
